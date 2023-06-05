@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="submit"]{
+    background-color: antiquewhite;
+    color:aqua;
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: 10px;
+}
+
+input[type="submit"]:hover{
+    background-color: gray;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="">
+    <meta http-equiv="" content="">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    </title>Events</title>
+    <script src=events.js></script>
+    <link href="main.css" rel="stylesheet">  
+    <link href="events.css" rel="stylesheet">   
+</head>
+<body>
+    <h1>Events List</h1>
+
+    <img src="desert oasis.jpg" id="imgDesertOasis" width="400px" alt="Desert Picture" onmouseover="changeCursor();" onmouseout="imageEvent()">
+
+
+    <form name="frmTest" id="frmTest" onsubmit="return ValidateInput();">
+        <label for="txtName">Enter your name:</label>
+        <input type="text" id="txtName" onfocus="this.value='';" onblur="showName();">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
